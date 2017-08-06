@@ -13,7 +13,7 @@ use std::cell::RefCell;
 use ggez::conf;
 use ggez::event;
 use ggez::{GameResult, Context};
-use ggez::graphics::{DrawParam, Image, self};
+use ggez::graphics::{self, DrawParam, Image};
 
 use omn_sprites::{SpriteSheetData, AnimationClip, ClipStore, PlayMode};
 
