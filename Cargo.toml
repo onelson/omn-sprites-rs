@@ -1,0 +1,6 @@
+[package]
+name = "omn-sprites"
+version = "0.1.0"
+authors = ["Owen Nelson <onelson@gmail.com>"]
+
+[dependencies]
