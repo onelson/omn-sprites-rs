@@ -2,6 +2,15 @@
 name = "omn-sprites"
 version = "0.1.0"
 authors = ["Owen Nelson <onelson@gmail.com>"]
+description = "A small library for sprite sheet animation."
+repository = "https://github.com/onelson/omn-sprites-rs"
+license = "MIT"
+keywords = ["sprite", "aseprite", "2D", "game", "graphics"]
+readme = "README.md"
+categories = ["games", "game-engines"]
+
+[badges]
+travis-ci = { repository = "onelson/omn-sprites-rs", branch = "master" }
 
 [lib]
 name = "omn_sprites"
