@@ -27,8 +27,8 @@ clippy = {version = "*", optional = true}
 
 
 [dev-dependencies]
-rand = "*"
-time = "*"
+rand = "0.3"
+time = "0.1"
 
 [dev-dependencies.ggez]
 version = "0.3"
