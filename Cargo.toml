@@ -3,4 +3,24 @@ name = "omn-sprites"
 version = "0.1.0"
 authors = ["Owen Nelson <onelson@gmail.com>"]
 
+[lib]
+name = "omn_sprites"
+path = "src/lib.rs"
+
+[features]
+default = []
+
 [dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+clippy = {version = "*", optional = true}
+
+
+[dev-dependencies]
+rand = "*"
+time = "*"
+
+[dev-dependencies.ggez]
+version = "0.3"
+features = ["cargo-resource-root"]
