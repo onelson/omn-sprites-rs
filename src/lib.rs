@@ -1,9 +1,6 @@
 //! This crate contains types and functions for managing playback of frame sequences
 //! over time.
 
-#![cfg_attr(feature="clippy", feature(plugin))]
-#![cfg_attr(feature="clippy", plugin(clippy))]
-
 extern crate serde;
 #[macro_use]
 extern crate serde_derive;
